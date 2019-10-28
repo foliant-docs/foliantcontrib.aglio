@@ -1,3 +1,6 @@
+[![](https://img.shields.io/pypi/v/foliantcontrib.aglio.svg)](https://pypi.org/project/foliantcontrib.aglio/)
+
+
 # Aglio Backend for Foliant
 
 Aglio backend generates API documentation from [API Blueprint](https://apiblueprint.org/) using [aglio renderer](https://github.com/danielgtaylor/aglio).
