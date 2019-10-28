@@ -1,13 +1,12 @@
 [![](https://img.shields.io/pypi/v/foliantcontrib.aglio.svg)](https://pypi.org/project/foliantcontrib.aglio/)
 
-
 # Aglio Backend for Foliant
 
 Aglio backend generates API documentation from [API Blueprint](https://apiblueprint.org/) using [aglio renderer](https://github.com/danielgtaylor/aglio).
 
 This backend operates the `site` target.
 
-> Note, that aglio is designed to render API Blueprint documents. Blueprint syntax is very close to that of Markdown and you may be tempted to use this backend as a general purpose static site generator, which may work in some cases, but is not guaranteed to work in all of them.
+> Note, that aglio is designed to render API Blueprint documents. Blueprint syntax is very close to that of Markdown and you may be tempted to use this backend as a general purpose static site generator. It may work in some cases, but is not guaranteed to work in all of them.
 
 ## Installation
 
@@ -57,7 +56,7 @@ backend_config:
 
 ### Templates
 
-You can customize the appearence of the static website build by aglio with [Jade](http://jade-lang.com/) templates. Aglio has two built-in templates:
+You can customize the appearance of the static website build by aglio with [Jade](http://jade-lang.com/) templates. Aglio has two built-in templates:
 
 * `default` — two-column web-page;
 * `triple` — three-column web-page.
