@@ -1,6 +1,8 @@
-[![](https://img.shields.io/pypi/v/foliantcontrib.aglio.svg)](https://pypi.org/project/foliantcontrib.aglio/)
+[![](https://img.shields.io/pypi/v/foliantcontrib.aglio.svg)](https://pypi.org/project/foliantcontrib.aglio/)  [![](https://img.shields.io/github/v/tag/foliant-docs/foliantcontrib.aglio.svg?label=GitHub)](https://github.com/foliant-docs/foliantcontrib.aglio)
 
 # Aglio Backend for Foliant
+
+![Static site built with Aglio backend](img/aglio.png)
 
 Aglio backend generates API documentation from [API Blueprint](https://apiblueprint.org/) using [aglio renderer](https://github.com/danielgtaylor/aglio).
 
@@ -14,19 +16,24 @@ This backend operates the `site` target.
 $ pip install foliantcontrib.aglio
 ```
 
-## Usage
+To use this backend [Aglio should be installed](https://github.com/danielgtaylor/aglio#installation--usage) on your system:
 
-To use this backend aglio should be installed in your system. Follow the [instruction](https://github.com/danielgtaylor/aglio#installation--usage) in aglio repo.
+```bash
+$ npm install -g aglio
+```
 
 To test if you've installed aglio properly run the `aglio -h` command, which should return you a list of options.
+
+## Usage
 
 To generate a static website from your Foliant project run the following command:
 
 ```bash
 $ foliant make site --with aglio
 Parsing config... Done
-Making site...
-Done
+Applying preprocessor flatten... Done
+Applying preprocessor _unescape... Done
+Making site... Done
 ────────────────────
 Result: My_Awesome_Project.aglio
 ```
