@@ -2,7 +2,7 @@
 
 # Aglio Backend for Foliant
 
-![Static site built with Aglio backend](img/aglio.png)
+![Static site built with Aglio backend](https://raw.githubusercontent.com/foliant-docs/foliantcontrib.aglio/master/img/aglio.png)
 
 Aglio backend generates API documentation from [API Blueprint](https://apiblueprint.org/) using [aglio renderer](https://github.com/danielgtaylor/aglio).
 
